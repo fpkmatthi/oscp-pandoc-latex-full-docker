@@ -34,3 +34,5 @@ Generate PDF
 ```Bash
 docker run --rm -v "`pwd`:/data" --user `id -u`:`id -g` --entrypoint "/data/generate-pdf.sh" pandoc-latex-full
 ```
+
+Edit generate-pdf.sh to your liking
